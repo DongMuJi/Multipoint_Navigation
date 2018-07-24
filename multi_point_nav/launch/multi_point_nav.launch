@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<launch>
+	<node pkg="multi_point_nav" type="multi_point_nav.py" respawn="false" name="multi_point_nav">
+		<param name="rest_time" value="10" type="int"/>
+		<param name="fake_test" value="False" type="bool"/>
+	</node>
+</launch>
